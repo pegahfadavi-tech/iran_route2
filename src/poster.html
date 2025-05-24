@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>سفر مسیر ایران</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #2d211a;
+      font-family: 'Vazirmatn', sans-serif;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+    .container {
+      background: #a97c5d;
+      width: 480px;
+      margin: 40px auto;
+      border-radius: 8px;
+      padding-bottom: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      margin: 16px;
+      padding: 16px;
+      position: relative;
+    }
+    .header {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: flex-start;
+      padding-bottom: 0;
+      position: relative;
+      font-weight: 700;
+      color: #000;
+    }
+    .logo {
+      background: #1a0d07;
+      border-radius: 0 0 0 8px;
+      padding: 8px 16px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 56px;
+      width: 56px;
+    }
+    .logo img {
+      max-width: 40px;
+      max-height: 40px;
+      display: block;
+    }
+    .header-img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-left: 16px;
+    }
+    .header-text {
+      flex: 1;
+      margin-right: 16px;
+      margin-top: 8px;
+    }
+    .title {
+      color: #000;
+      font-size: 1.7rem;
+      margin: 0 0 8px 0;
+      font-weight: 700;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    .subtitle, .start, .section-title, .note, .why, .description, .contact {
+      color: #000;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    .subtitle {
+      font-size: 1rem;
+      margin-bottom: 8px;
+      white-space: pre-line;
+      font-weight: 700;
+    }
+    .start {
+      font-size: 1rem;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+    .row {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 16px;
+    }
+    .col {
+      flex: 1;
+      min-width: 0;
+      min-height: 80px;
+      background: #fff;
+      border-radius: 8px;
+      margin: 16px 0 0 0;
+      padding: 16px;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #000;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    ul {
+      margin: 0;
+      padding-right: 18px;
+      font-size: 1rem;
+      color: #000;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    li {
+      margin-bottom: 4px;
+      color: #000;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    .note {
+      font-size: 1rem;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      color: #000;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    .why, .description {
+      font-size: 1rem;
+      white-space: pre-line;
+      color: #000;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 12px;
+      color: #fff;
+      font-size: 1.1rem;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    .screenshot-btn {
+      background: #c22c2c;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 18px;
+      font-size: 1rem;
+      margin: 16px auto 0 auto;
+      display: block;
+      cursor: pointer;
+      transition: background 0.2s;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    .screenshot-btn:hover {
+      background: #a97c5d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card header">
+      <div class="logo"><img src="logo.png" alt="logo"></div>
+      <img src="girl.jpg" alt="trip" class="header-img">
+      <div class="header-text">
+        <div class="title">سفر مسیر ایران</div>
+        <div class="subtitle">
+          خراسان شمالی - از دل زمین تا دل مردم<br>
+          در این سفر همسفرمون با یه تیم ماجراجوی خراسان شمالی همراه میشیم، از فرهنگ، طبیعت و زندگی اصیل محلی‌ها با خبر میشیم.
+        </div>
+        <div class="start">شروع: ۱۳ خرداد، ساعت ۱۰ شب</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="section-title">غذاهای محلی</div>
+        <ul>
+          <li>آش دوغ</li>
+          <li>شیشلیک</li>
+          <li>قورمه سبزی</li>
+        </ul>
+      </div>
+      <div class="col">
+        <div class="section-title">حمل و نقل</div>
+        <ul>
+          <li>۱۳ خرداد شب رفت و ۱۶ خرداد برگشت</li>
+          <li>ظرفیت محدود - فقط ۲۰ نفر</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <div class="note">🕒 ساعت زنده‌داری در ماجراجوها تجربه</div>
+      <div class="contact">اگر سوالی داری می‌تونی هر روز غیر از تعطیلات متونت رو بفرستی به ۰۹۳۵۲۳۳۳۳۲۲، از ساعت ۹ صبح تا ۸ عصر در خدمتم.</div>
+    </div>
+    <div class="card why">
+      <div class="section-title">چرا این سفر فراتر از یه تور معمولیه؟</div>
+      هدف ما توسعه‌ی محلی از دل گردشگری. بخش زیادی از درآمد سفر صرف حمایت از یک سالمند، زندگی واقعی با عشایر خراسان.
+    </div>
+    <div class="card description">
+      پروژه‌ی مسیر ایران، از دل یک زیست بوم و زیست بوم ماجراجوها شکل گرفته؛ سفری که عملاً هم داستان‌هاش با محلی‌ها و هم زندگی از مسیر گردشگری ما ماجراجوها رو مجدد معنی می‌کنه.
+
+      هدف این پروژه اینه که فقط تعداد محدودی از این سفرها در تقویم‌های ایران برگزار بشه تا موضوع تکراری باعث آسیب به مناطق و لوکیشن‌های اصیل نشه و کیفیت تجربه حفظ بشه.
+
+      سفر مسیر ایران قراره یک فصل ایجاد یک تجربه‌ی خاص برای ماجراجویان خاص ایران باشه، سهم واقعی ماجراجویی.
+    </div>
+    <button class="screenshot-btn">دریافت تصویر</button>
+    <div class="footer">
+      <img src="https://assets.genial.ly/resources/logo-genially.svg" alt="genially" style="height:24px;vertical-align:middle;">
+    </div>
+  </div>
+</body>
+</html> 
