@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>پوستر تصویری مسیر ایران</title>
+  <meta name="viewport" content="width=900, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+      margin: 0;
+      padding: 0;
+      font-family: 'Vazirmatn', Arial, sans-serif;
+    }
+    .poster-table {
+      width: 90vw;
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 24px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+      padding: 32px 16px 24px 16px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-auto-rows: minmax(340px, auto);
+      gap: 24px;
+      border: 2px solid #b2dfdb;
+    }
+    .slide {
+      background: #f5f5f5;
+      border-radius: 16px;
+      box-shadow: 0 2px 8px #b2dfdb22;
+      overflow: hidden;
+      border: 1.5px solid #b2dfdb;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      padding-bottom: 8px;
+    }
+    .slide img {
+      width: 100%;
+      max-width: 100%;
+      height: 260px;
+      object-fit: cover;
+      display: block;
+      border-bottom: 1px solid #b2dfdb;
+    }
+    .slide-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #1565c0;
+      margin: 32px 0 2px 0;
+      text-align: center;
+      font-family: 'Vazirmatn', Arial, sans-serif;
+      transition: margin 0.2s;
+    }
+    .slide7 {
+      grid-column: 1 / span 3;
+      min-height: 420px;
+      background: #e3f2fd;
+      border: 2.5px solid #1565c0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 32px 32px 24px 32px;
+      box-shadow: 0 4px 24px #b2dfdb33;
+      position: relative;
+    }
+    .slide7 .slide-title {
+      color: #388e3c;
+      font-size: 1.5rem;
+      margin-bottom: 18px;
+      text-align: right;
+    }
+    .slide7-content {
+      color: #222;
+      font-size: 1.08rem;
+      font-family: 'Vazirmatn', Arial, sans-serif;
+      line-height: 2.1;
+      text-align: justify;
+      font-weight: 500;
+      white-space: pre-line;
+    }
+    .farewell-box {
+      position: absolute;
+      right: 24px;
+      bottom: 18px;
+      color: #10437d;
+      font-size: 1.08rem;
+      font-family: 'Vazirmatn', Arial, sans-serif;
+      font-weight: 700;
+      text-align: right;
+      line-height: 1.7;
+      background: none;
+      z-index: 2;
+    }
+    .logo-container {
+      grid-column: 1 / span 3;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 24px;
+      margin-bottom: 0;
+    }
+    .footer-logo {
+      width: 300px;
+      max-width: 80vw;
+      height: auto;
+      aspect-ratio: 3 / 1;
+      object-fit: contain;
+      display: inline-block;
+    }
+    .farewell-bottom {
+      width: 100%;
+      max-width: 900px;
+      margin: 36px auto 24px auto;
+      color: #10437d;
+      font-size: 1.18rem;
+      font-family: 'Vazirmatn', Arial, sans-serif;
+      font-weight: 700;
+      text-align: center;
+      line-height: 2;
+      background: none;
+      border-radius: 16px;
+      box-shadow: 0 2px 8px #b2dfdb22;
+      padding: 18px 0 0 0;
+    }
+    @media (max-width: 900px) {
+      .poster-table { width: 99vw; padding: 8px 2vw; grid-template-columns: 1fr; }
+      .slide7, .logo-container { grid-column: 1 / span 1; }
+      .footer-logo { width: 90vw; }
+      .slide img { height: 180px; }
+      .slide-title { margin-top: 18px; }
+      .farewell-box { left: 8px; bottom: 8px; font-size: 0.98rem; }
+      .farewell-bottom {
+        font-size: 1.02rem;
+        padding: 12px 0 0 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="poster-table">
+    <div class="slide">
+      <img src="Instagram-post---Slide-1.jpg" alt="هایلایت سفر">
+      <div class="slide-title">هایلایت سفر</div>
+    </div>
+    <div class="slide">
+      <img src="Instagram-post---Slide-2.jpg" alt="جزئیات تور">
+      <div class="slide-title">جزئیات تور</div>
+    </div>
+    <div class="slide">
+      <img src="Instagram-post---Slide-3.jpg" alt="هزینه سفر">
+      <div class="slide-title">هزینه سفر</div>
+    </div>
+    <div class="slide">
+      <img src="Instagram-post---Slide-4.jpg" alt="برنامه روز اول">
+      <div class="slide-title">برنامه روز اول</div>
+    </div>
+    <div class="slide">
+      <img src="Instagram-post---Slide-5.jpg" alt="برنامه روز دوم">
+      <div class="slide-title">برنامه روز دوم</div>
+    </div>
+    <div class="slide">
+      <img src="Instagram-post---Slide-6.jpg" alt="برنامه روز سوم">
+      <div class="slide-title">برنامه روز سوم</div>
+    </div>
+    <div class="slide7">
+      <div class="slide-title">مسیر ایران</div>
+      <div class="slide7-content">
+پروژه‌ی مسیر ایران، از دل یک خواست و دغدغه‌ی جمعی بین ما جابامایی‌ها شکل گرفته؛ دغدغه‌ای که عمیقاً هم‌راستاست با مأموریت اصلی جاباما.
+ما جابامایی‌ها با مهجور موندن هیچ بومی در این سرزمین که ظرفیت رشد و بالندگی از مسیر گردشگری رو داره، کنار نمیایم.
+محکم و متعهد پای توسعه و آبادانی این بوم‌ها ایستاده‌ایم؛ از دل توانمندسازی کارآفرینان محلی، برای آینده‌ای که شایسته‌ی ایران و مردمشه.
+همه‌ ما می‌دونیم که ایران، پر از ظرفیت‌های بکر گردشگریه؛ اما واقعیت اینه که فقط تعداد محدودی از این مناطق در زمان‌هایی خاص، میزبان حجم زیادی از گردشگران می‌شن. این موضوع نه‌تنها باعث آسیب به محیط‌زیست و فرهنگ اون مناطق می‌شه، بلکه فرصت رشد رو از بوم‌های دیگه‌ای که کمتر دیده شدن، می‌گیره.
+ما توی مسیر ایران تلاش کردیم با طراحی تورهایی در استان‌های کمتر دیده‌شده، در زمان مناسب، به معرفی جاذبه‌های خاص اون مناطق کمک کنیم. این تورها طوری طراحی شدن که ضمن ایجاد یک تجربه‌ ناب برای مسافران، سهم واقعی و ملموسی هم برای جامعه‌ محلی داشته باشن.
+      </div>
+    </div>
+    <div class="logo-container">
+      <img src="site_logo.png" alt="Site Logo" class="footer-logo">
+    </div>
+  </div>
+  <div class="farewell-bottom">
+    به امید دیدار، در دل طبیعت و در کنار مردم<br>
+    پایدار و پرتوان٬ تیم مسیر ایران
+  </div>
+</body>
+</html> 
